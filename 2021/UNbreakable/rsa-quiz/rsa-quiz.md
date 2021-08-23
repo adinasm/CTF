@@ -1,9 +1,9 @@
 ## rsa-quiz
 
-Flag: CTF{45d2f31123799facb31c46b757ed2cbd151ae8dd9798a9468c6f24ac20f91b90}
+**Flag: CTF{45d2f31123799facb31c46b757ed2cbd151ae8dd9798a9468c6f24ac20f91b90}**
 
-Run `rsaquiz.py` in order to compute the values. The answers are already stored
-in `rsaquiz.txt`.
+Run [rsaquiz.py](rsaquiz.py) in order to compute the values. The answers are already stored
+in [rsaquiz.txt](rsaquiz.txt).
 Run `cat rsaquiz.txt | nc 35.198.90.23 30147` in order to obtain the flag.
 
 The following output is obtained:

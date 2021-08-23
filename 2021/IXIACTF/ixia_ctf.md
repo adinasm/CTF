@@ -1,6 +1,4 @@
-# IXIA CTF 2021
-
-Website: https://acs-ixia-ctf.security.cs.pub.ro/home
+# [IXIA CTF 2021](https://acs-ixia-ctf.security.cs.pub.ro/home)
 
 ## Misc
 

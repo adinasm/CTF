@@ -1,8 +1,8 @@
 ### Yo Dawg!
 
-Flag: ACS_IXIA_CTF{Y0_D4WG_G00D_J0B}
+**Flag: ACS_IXIA_CTF{Y0_D4WG_G00D_J0B}**
 
-Use `stegseek` to find the passphrase and the hidden file which contains the
+Use `stegseek` to find the passphrase from [yo-dawg.jpg](yo-dawg.jpg) and the hidden file which contains the
 flag.
 
 ```

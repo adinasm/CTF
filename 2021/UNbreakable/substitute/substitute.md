@@ -1,6 +1,6 @@
 ## substitute
 
-Flag: CTF{92b435bcd2f70aa18c38cee7749583d0adf178b2507222cf1c49ec95bd39054c}
+**Flag: CTF{92b435bcd2f70aa18c38cee7749583d0adf178b2507222cf1c49ec95bd39054c}**
 
 Get the existing files (`here_we_dont_have_flag index.php`):
 ```

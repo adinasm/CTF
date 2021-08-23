@@ -1,8 +1,8 @@
 ## crazy-number
 
-Flag: CTF{972d2068ed1914c5bf8ce44099d14647a53cf3113f8e0210593fd9d691de6724}
+**Flag: CTF{972d2068ed1914c5bf8ce44099d14647a53cf3113f8e0210593fd9d691de6724}**
 
-The encryption function prints a string in octal.
+The encryption function from [crazy](crazy) prints a string in octal.
 
 [Decrypt](http://www.unit-conversion.info/texttools/octal/)
 ```

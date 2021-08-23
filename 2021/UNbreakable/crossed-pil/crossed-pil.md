@@ -1,8 +1,8 @@
 ## crossed-pil
 
-Flag: ctf{3c7f44ab3f90a097124ecedab70d764348cba286a96ef2eb5456bee7897cc685}
+**Flag: ctf{3c7f44ab3f90a097124ecedab70d764348cba286a96ef2eb5456bee7897cc685}**
 
-I found a hidden image:
+I found a hidden image in [image.zip](image.zip):
 ```
 binwalk -e image.zip 
 
@@ -14,7 +14,7 @@ DECIMAL       HEXADECIMAL     DESCRIPTION
 153371        0x2571B         End of Zip archive, footer length: 22
 ```
 
-Then I found the python code which generated the image:
+Then I found the python code which generated the image in [image.png](image.png):
 ```
 strings image.png
 ```
@@ -51,13 +51,13 @@ for x in range(img.size[0]):
 img.save('image.png')
 ```
 
-I created the script `crossedpil.py` in which I tried to obtain the initial
+I created the script [crossedpil.py](crossedpil.py) in which I tried to obtain the initial
 image. I did the same procedure, but if a number was even, then the new value was 255, otherwise 0.
 I saw that a picture similar to a QR code was generated, so if all the values
 from a pixel were not black, then I made them white, otherwise black. The QR
 code was incomplete, so I turned black the pixels which had at least 3 black
 neighbours.
-Then I [scanned the QR code](https://online-barcode-reader.inliteresearch.com/) and obtained the flag.
+Then I [scanned](https://online-barcode-reader.inliteresearch.com/) [the QR code](flag.png) and obtained the flag.
 
 
 [Back](../unbreakable.md)
